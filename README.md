@@ -23,7 +23,7 @@
 - **center_block**: central obstacle size and position (`pygame.Rect(WIDTH//2-25, HEIGHT//2-150, 50, 300)`)
 
 ## demonstrations:
-[vision cones demo](https://endo.ovh/visioncones.gif)
+![vision cones demo](https://endo.ovh/visioncones.gif)
 
 ### how vision cones interact:
 - each player emits a cone of lines representing their field of vision.
