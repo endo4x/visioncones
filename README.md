@@ -22,6 +22,15 @@
 - **GREY**: color of central block (`(128, 128, 128)`)
 - **center_block**: central obstacle size and position (`pygame.Rect(WIDTH//2-25, HEIGHT//2-150, 50, 300)`)
 
+## demonstrations:
+![vision cones demo](https://endo.ovh/visioncones.gif)
+
+### how vision cones interact:
+- each player emits a cone of lines representing their field of vision.
+- vision cones stop when they hit an obstacle (like the center block).
+- if a vision cone hits the other player, the line turns red to show detection.
+- if no collision, the line stays the player’s color (blue for player 1, white for player 2).
+
 ## requirements:
 - python 3.x
 - pygame (`pip install pygame`)
