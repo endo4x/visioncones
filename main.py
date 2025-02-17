@@ -18,7 +18,7 @@ GREY = (128, 128, 128)
 
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Dual Vision Cone Simulation")
+pygame.display.set_caption("made with <3 by endo")
 clock = pygame.time.Clock()
 
 class Player:
